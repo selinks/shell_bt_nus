@@ -1,7 +1,8 @@
 /*
+ * Copyright (c) 2022 Konstantin Selin
  * Copyright (c) 2019 Nordic Semiconductor ASA
  *
- * SPDX-License-Identifier: LicenseRef-Nordic-5-Clause
+ * SPDX-License-Identifier: MIT-Modern-Variant
  */
 
 /** @file

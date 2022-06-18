@@ -1,7 +1,7 @@
-#
+# Copyright (c) 2022 Konstantin Selin
 # Copyright (c) 2018 Nordic Semiconductor
 #
-# SPDX-License-Identifier: LicenseRef-Nordic-5-Clause
+# SPDX-License-Identifier: MIT-Modern-Variant
 #
 cmake_minimum_required(VERSION 3.20.0)
 
