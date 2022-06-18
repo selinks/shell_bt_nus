@@ -1,0 +1,16 @@
+# MS88SF2 board configuration
+#
+# Copyright (c) 2022 Konstantin Selin
+# Copyright (c) 2016 Nordic Semiconductor ASA
+#
+# SPDX-License-Identifier: MIT-Modern-Variant
+#
+if BOARD_MS88SF2
+
+config BOARD
+	default "ms88sf2"
+
+config BT_CTLR
+   default BT
+
+endif # BOARD_MS88SF2

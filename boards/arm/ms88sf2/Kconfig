@@ -1,0 +1,20 @@
+# MS88SF2 board configuration
+#
+# Copyright (c) 2022 Konstantin Selin
+# Copyright (c) 2016 Nordic Semiconductor ASA
+#
+# SPDX-License-Identifier: MIT-Modern-Variant
+#
+if BOARD_MS88SF2
+
+config BOARD_ENABLE_DCDC
+	bool "DCDC mode"
+	select SOC_DCDC_NRF52X
+	default y
+
+config BOARD_ENABLE_DCDC_HV
+	bool "High Voltage DCDC converter"
+	select SOC_DCDC_NRF52X_HV
+	default y
+
+endif # BOARD_MS88SF2
